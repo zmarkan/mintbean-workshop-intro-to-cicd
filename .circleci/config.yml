@@ -63,6 +63,10 @@ workflows:
           requires: 
             - build-and-test
             - vulnerability-scan
+          filters:
+            branches:
+              only: main
       - deploy-docker:
           requires: 
             - hold-for-approval
+            
