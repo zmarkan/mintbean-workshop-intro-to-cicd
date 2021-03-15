@@ -22,11 +22,4 @@ describe("Welcome to CI/CD Server", function() {
       assert.equal(res, message);
     });  
   });
-
-  // Let's not fail :)
-  describe("failThisTest", function (){
-    it("Fails miserably", function(){
-      assert.strictEqual(true, false, "This should fail")
-    });  
-  });
 });

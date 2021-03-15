@@ -69,4 +69,3 @@ workflows:
       - deploy-docker:
           requires: 
             - hold-for-approval
-            
